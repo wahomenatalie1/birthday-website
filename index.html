@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Leshy ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND PARTICLES -->
+    <div id="particles"></div>
+
+
+   
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 1 - WELCOME -->
+    <!-- ============================= -->
+
+    <section id="welcomeScreen" class="screen active">
+
+        <div class="content welcome-content">
+
+            <p class="eyebrow">
+                A LITTLE SOMETHING FOR YOU BBEEIIBBYY...
+            </p>
+
+            <h1>
+                Happy
+                <span>Birthday</span>
+                Leshy ❤️
+            </h1>
+
+            <p class="intro">
+                I could have just sent you a normal birthday message...
+                but obviously, I had to do something extra and unique that no one else would do. So, I made you this little birthday website instead. 🥹❤️
+            </p>
+
+            <button
+                id="startButton"
+                class="main-button">
+                FINYA THIS KA BUTTON
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 2 - BIRTHDAY MESSAGE -->
+    <!-- ============================= -->
+
+    <section id="birthdayScreen" class="screen">
+
+        <div class="content">
+
+            <p class="eyebrow">
+                TODAY IS YOUR DAY 🎂
+            </p>
+
+            <h2>
+                Happy Birthday,
+                <span>Leshy ❤️</span>
+            </h2>
+
+            <p class="large-message">
+                Another year of you being you.
+                Another year of laughter, random moments,
+                memories and everything in between.
+            </p>
+
+            <p class="large-message">
+                And because one simple "Happy Birthday"
+                wasn't enough...
+            </p>
+
+            <button
+                id="continueButton"
+                class="main-button">
+                KEEP GOING
+                <span>↓</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 3 - OUR MEMORY -->
+    <!-- ============================= -->
+
+    <section id="memoryScreen" class="screen">
+
+        <div class="content wide">
+
+            <p class="eyebrow">
+                CHAPTER ONE 📸
+            </p>
+
+            <h2>
+                A Little Piece Of
+                <span>Us</span>
+            </h2>
+
+            <p class="section-description">
+                Some pictures are more than just pictures.
+                They hold entire memories inside them.
+            </p>
+
+
+            <!-- PHOTO -->
+
+            <div
+                id="photoContainer"
+                class="photo-container">
+
+                <img
+                    src="picture.jpg"
+                    alt="A special memory"
+                    id="ourPhoto">
+
+                <div class="photo-overlay">
+                    <span>🔍</span>
+                    <p>Click to view</p>
+                </div>
+
+            </div>
+
+
+            <h3 class="photo-title">
+                One of my favourite memories ❤️
+            </h3>
+
+
+            <p class="photo-caption">
+                And honestly...
+                I think this picture deserves its own little
+                place on this website. 🥹
+            </p>
+
+
+            <button
+                id="specialButton"
+                class="main-button">
+                THERE'S MORE...
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- PHOTO MODAL -->
+    <!-- ============================= -->
+
+    <div
+        id="photoModal"
+        class="photo-modal">
+
+        <button
+            id="closePhoto"
+            class="close-photo">
+            ×
+        </button>
+
+        <img
+            src="./picture.jpg"
+            alt="Our memory"
+            id="expandedPhoto">
+
+        <p>
+            A memory worth keeping ❤️
+        </p>
+
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 4 - WHY SPECIAL -->
+    <!-- ============================= -->
+
+    <section id="specialScreen" class="screen">
+
+        <div class="content">
+
+            <p class="eyebrow">
+                CHAPTER TWO ✨
+            </p>
+
+            <h2>
+                Why You're
+                <span>Special</span>
+            </h2>
+
+
+            <div class="reasons">
+
+                <div class="reason">
+
+                    <span>01</span>
+
+                    <h3>
+                        Your Energy
+                    </h3>
+
+                    <p>
+                        You somehow make ordinary moments
+                        much more memorable and cheerful.
+                    </p>
+
+                </div>
+
+
+                <div class="reason">
+
+                    <span>02</span>
+
+                    <h3>
+                        Your Heart
+                    </h3>
+
+                    <p>
+                        You're genuinely someone who's kind, caring and thoughtful and totally loveable.
+                    </p>
+
+                </div>
+
+
+                <div class="reason">
+
+                    <span>03</span>
+
+                    <h3>
+                        Just You
+                    </h3>
+
+                    <p>
+                        Honestly, I could probably make
+                        an entire second website about this.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                id="gameButton"
+                class="main-button">
+                ONE MORE THING 🎮
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 5 - GAME -->
+    <!-- ============================= -->
+
+    <section id="gameScreen" class="screen">
+
+        <div class="content">
+
+            <p class="eyebrow">
+                CHAPTER THREE 🎮
+            </p>
+
+            <h2>
+                Find The
+                <span>Heart</span>
+            </h2>
+
+            <p class="game-text">
+                One of these boxes contains a surprise.
+            </p>
+
+            <p class="game-text">
+                Choose wisely 👀
+            </p>
+
+
+            <div class="game-board">
+
+                <button class="game-box">?</button>
+                <button class="game-box">?</button>
+                <button class="game-box">?</button>
+
+                <button class="game-box">?</button>
+                <button class="game-box">?</button>
+                <button class="game-box">?</button>
+
+                <button class="game-box">?</button>
+                <button class="game-box">?</button>
+                <button class="game-box">?</button>
+
+            </div>
+
+
+            <p id="gameResult"></p>
+
+
+            <button
+                id="letterButton"
+                class="main-button hidden">
+
+                UNLOCK THE LETTER 💌
+
+                <span>→</span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 6 - LETTER -->
+    <!-- ============================= -->
+
+    <section id="letterScreen" class="screen">
+
+        <div class="content letter-content">
+
+            <p class="eyebrow">
+                CHAPTER FOUR 💌
+            </p>
+
+            <h2>
+                A Letter
+                <span>For You</span>
+            </h2>
+
+
+            <div class="letter">
+
+               
+
+                <p>
+                    Hey Leu ❤️,
+
+Happy birthday to youuu! 🥹❤️ I honestly don't even know where to start because there are so many things I could say, but I'll try my best. Today is all about celebrating you and the person you are, and I really hope you know just how special you are to me.
+                </p>
+
+                <p>
+                    I'm really grateful for all the moments we've shared, whether they were the big memorable ones or the completely random little moments that probably didn't seem important at the time. Somehow, those little moments are some of the ones I end up remembering the most. The jokes, the random conversations, the laughing over things that probably weren't even that funny, and all the moments that just became part of our story.
+                </p>
+
+                <p>
+                    You've become such an important part of my life, and I'm genuinely grateful that I got to meet you. There's something about you that makes even ordinary days feel a little less ordinary. You have your own way of making me laugh, annoying me 😂, making me smile, and creating memories without even trying.
+                </p>
+
+                <p>I hope you have the happiest birthday, Lewiski. ❤️</p>
+
+
+            </div>
+
+
+            <button
+                id="finalButton"
+                class="main-button">
+
+                ONE LAST SURPRISE 🎁
+
+                <span>→</span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SCREEN 7 - FINAL -->
+    <!-- ============================= -->
+
+    <section id="finalScreen" class="screen">
+
+        <div class="content final-content">
+
+            <div class="final-icon">
+                ❤️
+            </div>
+
+            <p class="eyebrow">
+                YOU MADE IT 🎉
+            </p>
+
+           
+
+            <div class="final-line"></div>
+
+            <p class="small-final">
+                Made especially for you ❤️
+            </p>
+
+            <p class="birthday-signature">
+                — From me...your Nattie..
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
